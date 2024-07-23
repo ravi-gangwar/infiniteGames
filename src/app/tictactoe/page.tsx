@@ -84,7 +84,7 @@ function Page() {
 
     
     return (
-        <div className='flex flex-col items-center'>
+        <div className='flex flex-col items-center selection:no-underline'>
             <h1 className='text-2xl mb-4'>Tic Tac Toe</h1>
             <div className='mb-4'>
                 <label className='mr-2'>Matrix Size:</label>
@@ -112,11 +112,11 @@ function Page() {
                 ))}
             </div>
             {winner && (
-                <div className='mt-4'>
+                <div className='mt-4 text-center'>
                     <h2 className='text-xl'>{winner === 'Draw' ? 'It\'s a Draw!' : `Winner: ${winner}`}</h2>
                     <button
                         onClick={handleReset}
-                        className='mt-2 px-4 py-2 bg-blue-500 text-white rounded'
+                        className='mt-2 px-4 py-2 bg-zinc-700 text-white rounded'
                     >
                         Restart Game
                     </button>
