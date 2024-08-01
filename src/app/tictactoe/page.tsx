@@ -7,6 +7,10 @@ function Page() {
     const [isXNext, setIsXNext] = useState(true);
     const [winner, setWinner] = useState(null);
 
+
+    
+
+
     useEffect(() => {
         const initialMatrix = Array(matSize).fill(null).map(() => Array(matSize).fill(null));
         setMatrix(initialMatrix);

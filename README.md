@@ -21,6 +21,11 @@ bun dev
 3. Realtime audio and text chat
 4. multiple games
 
+## games names 
+1. snake game
+2. tic tac toe
+3. 
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
